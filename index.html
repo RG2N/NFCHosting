@@ -9,6 +9,7 @@
     gtag('config', 'G-71MNT22FZ4');
   </script>
   <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="index.css">
     <title>NFC Hosting</title>
     <link rel="icon" type="image/x-icon" href="/images/logo1.png">
@@ -19,6 +20,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
     <h1>NFC hosting.</h1>
   </body>
 </html>
